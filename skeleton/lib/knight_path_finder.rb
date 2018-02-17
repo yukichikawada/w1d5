@@ -8,7 +8,8 @@ class KnightPathFinder
     # calls build_move_tree
   end
 
-  def valid_moves(pos)
+  def valid_moves(pos)git status
+    
     possible_moves = [[1, 2], [1, -2], [-1, 2], [-1, -2], [2, 1], [-2, 1], [-2, -1], [2, -1]]
 
     if
